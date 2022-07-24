@@ -1,0 +1,24 @@
+function valid()
+		{
+			if(frm.name.value == "") 
+				{ 
+				alert("Error: Student name cannot be blank!"); 
+					frm.name.focus();
+					return false; 
+				} 
+			
+			if(frm.password.value == "") 
+				{ 
+				alert("Error: Password cannot be blank!"); 
+					frm.password.focus();
+					return false; 
+				} 
+			
+			if(frm.year.value == "-1") 
+				{ 
+				alert("Error: Please Select The Year!!!!"); 
+					frm.year.focus();
+					return false; 
+				} 
+				
+		}

@@ -1,0 +1,22 @@
+<style type="text/css">
+
+#hrr {
+height:3px;
+ width:70%;
+ background:8477B9;
+}
+
+#timer{
+background:E5E3EF;
+position:fixed;
+margin:0px;
+height:80px;
+margin-left:850px;
+}
+
+#questions
+{
+margin-top:15px;
+}
+
+</style>
